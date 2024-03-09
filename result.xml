@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.198" timestamp="2024-03-09T18:56:47.149978" hostname="DESKTOP-O7JA13J"><testcase classname="" name="tests.test_stores" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Users\admin\PycharmProjects\autotests_store_app\tests\test_stores.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_stores.py:1: in &lt;module&gt;
+    from env_config import ExpectedData
+env_config.py:1: in &lt;module&gt;
+    from dotenv import load_dotenv
+E   ModuleNotFoundError: No module named 'dotenv'</error></testcase></testsuite></testsuites>
