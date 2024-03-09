@@ -3,7 +3,7 @@ name: CI/CD
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -11,17 +11,17 @@ jobs:
 
     steps:
     - name: Checkout store-app-testing
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2 #клонирует весь репозиторий без сабмодуля
 
     - name: Add store-app as submodule
-      run: make run
+      run: make run  # добавляет сабмодуль - кодовая база приложения
 
     - name: Build and run Docker Compose
       run: |
         docker-compose up -d
         docker-compose logs -f store-app-testing > logs.txt &
         while true; do
-          if grep -q "storedb-standalone-project_store-app-testing_1 exited with code 0" logs.txt; then
+          if grep -q "autotests_store_app_store-app-testing_1 exited with code 0" logs.txt; then
             docker cp $(docker-compose ps -q store-app-testing):/app/pyreport.html .
             break
           fi
