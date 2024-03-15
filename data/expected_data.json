@@ -1,0 +1,21 @@
+[
+  {
+    "location": "Argentina",
+    "store_name": "New store",
+    "address": "Avenue, 1",
+    "products": [
+      {
+        "product_id": 1,
+        "product_name": "iphone",
+        "is_available": true,
+        "store_id": 1
+      }
+    ]
+  },
+  {
+    "location": "France",
+    "store_name": "Small store",
+    "address": "Street, 108",
+    "products": []
+  }
+]

@@ -1,3 +1,6 @@
 pytest
 requests
+jsonschema
+pydantic
 pytest-pyreport
+python-dotenv

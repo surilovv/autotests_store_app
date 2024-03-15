@@ -1,10 +1,9 @@
 from base.auth import Auth
 from requests import Session
-from base.db.models import Store, Product
-from env_config import Routes, PreparedData, Creds
+from env_config import Routes, Creds
 from routers.stores import Stores
 from pytest import fixture
-from base.db.database import Database
+
 
 
 
