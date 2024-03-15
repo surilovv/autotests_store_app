@@ -18,8 +18,9 @@ def create_session():
 
 @fixture(scope='session')
 def get_token(create_session):
-    token = Auth(create_session, Routes.AUTH_URL, "admin", "bsdOneq1").generate_token()
-    yield token
+    auth = Auth(create_session, Routes.AUTH_URL, "admin", "bsdOneq1")
+    auth.register()
+    yield auth.generate_token()
 
 @fixture()
 def stores_route(create_session, get_token):
