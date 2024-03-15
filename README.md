@@ -1,1 +1,0 @@
-# autotests_store_app
