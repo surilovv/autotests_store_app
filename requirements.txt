@@ -4,3 +4,4 @@ jsonschema
 pydantic
 pytest-pyreport
 python-dotenv
+allure-pytest
