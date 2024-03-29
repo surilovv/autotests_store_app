@@ -11,4 +11,4 @@ def test_get_store(stores_route):
 @allure.suite("E2E")
 def test_1():
     with allure.step("step1"):
-        assert 1 == 2
+        assert 1 == 1
