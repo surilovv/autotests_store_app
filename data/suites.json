@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "E2E",
+      "children" : [ {
+        "name" : "Get store",
+        "uid" : "6a562dff12c0a3a6",
+        "parentUid" : "216ef7f43b8b702149de065f49dd2a69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711710550643,
+          "stop" : 1711710550643,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "216ef7f43b8b702149de065f49dd2a69"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

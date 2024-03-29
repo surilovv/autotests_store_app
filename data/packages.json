@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.test_stores",
+    "children" : [ {
+      "name" : "Get store",
+      "uid" : "6a562dff12c0a3a6",
+      "parentUid" : "f7c5e96a87f7ff87017d46fa649da033",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711710550643,
+        "stop" : 1711710550643,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_stores"
+  } ],
+  "name" : "packages"
+}

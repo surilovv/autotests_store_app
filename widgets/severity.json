@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6a562dff12c0a3a6",
+  "name" : "Get store",
+  "time" : {
+    "start" : 1711710550643,
+    "stop" : 1711710550643,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
